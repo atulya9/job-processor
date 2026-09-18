@@ -1,0 +1,92 @@
+[
+  {
+    "job_id": "job-001",
+    "status": "success",
+    "started_at": "2026-09-18T09:00:00Z",
+    "finished_at": "2026-09-18T09:02:30Z",
+    "attempt": 1
+  },
+  {
+    "job_id": "job-002",
+    "status": "success",
+    "started_at": "2026-09-18T09:05:00Z",
+    "finished_at": "2026-09-18T09:08:00Z",
+    "attempt": 1
+  },
+  {
+    "job_id": "job-003",
+    "status": "success",
+    "started_at": "2026-09-18T09:10:00Z",
+    "finished_at": "2026-09-18T09:12:00Z",
+    "attempt": 3
+  },
+  {
+    "job_id": "job-004",
+    "status": "failed",
+    "started_at": "2026-09-18T09:15:00Z",
+    "finished_at": "2026-09-18T09:15:45Z",
+    "attempt": 1
+  },
+  {
+    "job_id": "job-005",
+    "status": "failed",
+    "started_at": "2026-09-18T09:20:00Z",
+    "finished_at": "2026-09-18T09:21:10Z",
+    "attempt": 2
+  },
+  {
+    "job_id": "job-006",
+    "status": "running",
+    "started_at": "2026-09-18T09:30:00Z",
+    "finished_at": null,
+    "attempt": 1
+  },
+  {
+    "job_id": "job-007",
+    "status": "success",
+    "started_at": "2026-09-18T08:00:00Z",
+    "finished_at": "2026-09-18T08:00:15Z",
+    "attempt": 1
+  },
+  {
+    "job_id": "missing-status",
+    "started_at": "2026-09-18T10:00:00Z",
+    "finished_at": "2026-09-18T10:01:00Z",
+    "attempt": 1
+  },
+  {
+    "job_id": "bad-timestamps",
+    "status": "success",
+    "started_at": "not-a-datetime",
+    "finished_at": "also-not-a-datetime",
+    "attempt": 1
+  },
+  {
+    "job_id": "finished-before-start",
+    "status": "success",
+    "started_at": "2026-09-18T11:00:00Z",
+    "finished_at": "2026-09-18T10:00:00Z",
+    "attempt": 1
+  },
+  {
+    "status": "failed",
+    "started_at": "2026-09-18T12:00:00Z",
+    "finished_at": "2026-09-18T12:00:30Z",
+    "attempt": 1
+  },
+  {
+    "job_id": "bad-attempt",
+    "status": "failed",
+    "started_at": "2026-09-18T13:00:00Z",
+    "finished_at": "2026-09-18T13:00:20Z",
+    "attempt": "two"
+  },
+  {
+    "job_id": "unknown-status",
+    "status": "cancelled",
+    "started_at": "2026-09-18T14:00:00Z",
+    "finished_at": "2026-09-18T14:00:05Z",
+    "attempt": 1
+  },
+  "not-an-object"
+]

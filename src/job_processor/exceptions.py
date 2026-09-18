@@ -1,0 +1,2 @@
+class InvalidRecordError(Exception):
+    pass
